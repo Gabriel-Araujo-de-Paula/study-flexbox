@@ -1,0 +1,41 @@
+body {
+    font-family: monospace;
+    color: #333;
+    background: #FFF8F3;
+}
+h1 {
+    text-align: center;
+    color: #0D0D0D;
+}
+p{
+    color: #ffffff;
+}
+
+.flex-direction-row .container_1,
+.flex-direction-row-reverse .container_2 {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    border: 3px solid black;
+}
+
+.flex-direction-row .container_1 .item,
+.flex-direction-row-reverse .container_2 .item {
+    background: #A61B1B ;
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.row{
+    flex-direction: row;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.column{
+    flex-direction: column;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+}
