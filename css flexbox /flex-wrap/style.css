@@ -1,0 +1,40 @@
+body {
+    font-family: monospace;
+    color: #333;
+    background: #FFF8F3;
+}
+
+h1 {
+    text-align: center;
+    color: #0D0D0D;
+}
+
+p {
+    color: #ffffff;
+}
+
+.container-no-wrap .container_1,
+.container-wrap .container_2, .container_3 {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    border: 3px solid black;
+}
+
+.item {
+    background: #3D5B81;
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5rem;
+    min-width: fit-content;
+    color: white;
+}
+
+.container_2 {
+    flex-wrap: wrap;
+}
+
+.container_3 {
+    flex-wrap: wrap-reverse;
+}
